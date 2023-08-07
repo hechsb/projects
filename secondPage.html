@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="page.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- it's the logo -->
+  <div>
+    <img class="logo"
+      src="https://scontent.ftun7-1.fna.fbcdn.net/v/t39.30808-6/291106117_1021166715203007_3619512176355099951_n.jpg?_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=QXriPwdzUmIAX_dwmoW&_nc_ht=scontent.ftun7-1.fna&oh=00_AfCTtSNxk1HgvSTI3I0ltIwKWMTz5Yi_88fAKLpLx8nnHQ&oe=64D685DE"
+      alt="">
+  </div>
+  <!-- the card add -->
+
+  <div class="container">
+
+    <div class="card">
+      <div class="card-border-top">
+      </div>
+      <div class="img">
+      </div>
+      <div class="addStudent">
+        <span> Add student</span>
+
+        <button id="addButton"> Click
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  <!-- student form -->
+  <p>Student informations</p>
+  <div class="student_Form">
+
+    <form classe="form" method="get" action="">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Last name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="IQ_test">IQ Test</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="IQ" name="IQ" placeholder="Score">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="feedback">Feedback</label>
+        </div>
+        <div class="col-75">
+          <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <button id="addStudent">Add</button>
+
+      </div>
+    </form>
+    </form>
+
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
